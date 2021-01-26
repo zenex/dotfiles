@@ -1,0 +1,111 @@
+! ─┐ ┬┌─┐┌┐┌┌─┐┌┐ ┬ ┬┌┬┐┌─┐ ─┐ ┬┬ ┬┌─┐
+! ┌┴┬┘├┤ ││││ │├┴┐└┬┘ │ ├┤  ┌┴┬┘└┬┘┌─┘
+! ┴ └─└─┘┘└┘└─┘└─┘ ┴  ┴ └─┘o┴ └─ ┴ └─┘
+! Author:  SENEX @ XENOBYTE.XYZ
+! License: MIT License
+! Website: https://xenobyte.xyz/projects/?nav=dotfiles
+
+Xcursor.size               : 16    
+xft.dpi                    : 96
+Xft.antialias              : true
+Xft.rgba                   : rgb
+Xft.hinting                : true
+Xft.autohint               : true
+Xft.hintstyle              : hintfull
+!------------------------------------------------
+
+! TEWI FONT
+urxvt.font                 : xft:tewi:regular:size=9
+urxvt.boldFont             : xft:tewi:regular:size=9
+rofi.font                  : tewi regular 9
+
+
+! OHSNAP FONT
+! urxvt.font                 : xft:misc ohsnapu:bold:size=9
+! urxvt.boldFont             : xft:misc ohsnapu:bold:size=9
+! rofi.font                  : misc ohsnapu bold 9
+
+! urxvt*letterSpace        : 0
+urxvt.allow_bold           : true
+urxvt.transparent          : false
+urxvt.shading              : 15
+
+!------------------------------------------------              
+urxvt.perl-lib             : ~/.urxvt/ext/
+urxvt.perl-ext-common      : default,matcher,vtwheel,clipboard,keyboard-select,url-select
+
+!tabbed
+urxvt.matcher.button       : 1
+urxvt.perl-ext             : default,url-select
+urxvt.keysym.M-u           : perl:url-select:select_next
+urxvt.url-select.launcher  : /usr/bin/firefox
+urxvt.url-select.underline : true
+
+!disable the fucking bell
+urxvt.insecure             : false
+
+! Clipboard
+urxvt.clipboard.copycmd    : xsel -ib
+urxvt.clipboard.pastecmd   : xsel -ob
+! do not scroll with output
+urxvt.scrollTtyOutput      : false
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+urxvt.scrollWithBuffer     : true
+! scroll back to the bottom on keypress
+urxvt.scrollTtyKeypress    : true
+urxvt.saveLines            : 300000
+urxvt.scrollBar            : false
+urxvt.scrollstyle          : plain
+urxvt.cursorBlink          : 1
+urxvt.cursorUnderline      : 0
+
+
+urxvt.metaSendsEscape: true 
+
+
+
+
+
+! HOTKEYS
+urxvt.keysym.M-Escape      : perl:keyboard-select:activate
+urxvt.keysym.M-c           : perl:clipboard:copy
+urxvt.keysym.C-v           : perl:clipboard:paste
+urxvt.keysym.M-C-v         : perl:clipboard:paste_escaped
+urxvt.keysym.F11           : perl:fullscreen:switch
+
+! ! COLORS
+urxvt*foreground:   #ebf8ff
+urxvt*background:   #161b1d
+urxvt*cursorColor:  #e66b2b
+
+! black
+urxvt*color0:       #1f292e
+urxvt*color8:       #8b8792
+
+! red
+urxvt*color1:       #d22d72
+urxvt*color9:       #d73c9a
+
+! green
+urxvt*color2:       #7cc844
+urxvt*color10:      #568c3b
+
+! yellow
+urxvt*color3:       #e4b51c
+urxvt*color11:      #e66b2b
+
+! blue
+urxvt*color4:       #257fad
+urxvt*color12:      #52cbb0
+
+! magenta
+urxvt*color5:       #b72dd2
+urxvt*color13:      #955ae7
+
+! cyanx
+urxvt*color6:       #576ddb
+urxvt*color14:      #257fad
+
+! white
+urxvt*color7:       #efecf4
+urxvt*color15:      #c2c2b0

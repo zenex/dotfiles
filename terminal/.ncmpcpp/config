@@ -1,0 +1,58 @@
+# ─┐ ┬┌─┐┌┐┌┌─┐┌┐ ┬ ┬┌┬┐┌─┐ ─┐ ┬┬ ┬┌─┐
+# ┌┴┬┘├┤ ││││ │├┴┐└┬┘ │ ├┤  ┌┴┬┘└┬┘┌─┘
+# ┴ └─└─┘┘└┘└─┘└─┘ ┴  ┴ └─┘o┴ └─ ┴ └─┘
+# Author:  SENEX @ XENOBYTE.XYZ
+# License: MIT License
+# Website: https://xenobyte.xyz/projects/?nav=dotfiles
+
+# mpd stuff
+mpd_host = "127.0.0.1"
+mpd_port = "8451"
+mpd_music_dir = "/run/media/admin/2THDD/music"
+mpd_connection_timeout = "5"
+
+
+# Visualizer
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "fifo"
+visualizer_type = "wave" (spectrum/wave)
+
+# Interfaz:
+user_interface = 						"alternative"
+alternative_header_first_line_format = 	"$(white)─┤ $b$(magenta)%a$(end)$/b ├─$(end)"
+alternative_header_second_line_format =	"$(16)%t (%y)$(end)"
+alternative_ui_separator_color = 		"cyan"
+
+
+song_columns_list_format = 				"$L (10)[white]{n} $1│$7 (20)[magenta]{a} $1│$7 (20)[white]{b} $1│$7 (20)[magenta]{t} $1│$7 (20)[white]{l}"
+now_playing_prefix = 					"$b"
+centered_cursor = 						"no"
+cyclic_scrolling = 						"yes"
+mouse_list_scroll_whole_page = 			"no"
+
+# Varias configuraciones:
+autocenter_mode = 						"yes"
+display_bitrate = 						"yes"
+header_visibility = 					"yes"
+statusbar_visibility = 					"yes"
+
+
+
+# Progress Bar ..
+progressbar_look = "━━─"
+progressbar_boldness = "yes"
+
+progressbar_elapsed_color = "green"
+
+# Color:
+color1 = 								"white"
+color2 = 								"red"
+discard_colors_if_item_is_selected = 	"yes"
+main_window_color = 					"white"
+header_window_color = 					"4"
+progressbar_color = 					"cyan"
+statusbar_color = 						"red"
+active_column_color = 					"white"
+volume_color = 							"4"
+window_border_color = 					"white"
+active_window_border = 					"4"
