@@ -1,0 +1,81 @@
+#+Title: [[https://xenobyte.xyz/projects/?nav=dotfiles][XENOBYTE.XYZ Dotfiles]] CHANGELOG
+#+Author: SENEX @ XENOBYTE.XYZ
+
+* VER 2.6 <2021-01-25 Mon 20:19>
+  - Git tree reset to remove old, deprecated files
+
+* VER 2.5 <2021-01-01 Fri 14:23>
+  - Added a locally compiled .otb version of tewi
+  - Cleaned a few files
+  - Removed unused fonts
+  - Change the terminal and emacs theme
+
+* VER 2.33 <2020-11-10 Tue 19:32>
+  - Fixed broken links in comments
+  - Removed a few, useless files in the AwesomeWM dependencies
+
+* VER 2.3 <2020-11-04 Wed 20:27>
+  - XENOBYTE.XYZ rebrand
+  - Updated some env vars include .zshrc
+
+* VER 2.2 <2020-10-14 Wed 19:15>
+  - Fixed mute / unmute hotkeys toggling in rc.lua
+  - Updated the FAQ
+  - Updated install guide
+
+* VER 2.1 <2020-08-24 Mon 10:50>
+  - Fixed a few rendering bugs in the AwesomeWM theme
+  - Updated theme icons & font
+
+* VER 2.0 <2020-07-24 Fri 17:32>
+  - Renewed the git repo starting with ver 2.0 
+
+* VER 1.6 <2020-07-24 Fri 17:32>
+  -- EMACS -- 
+    - The EMACS configuration has been moved to its own repository to make it easier to manage
+  -- TERMINAL --
+    - Cleaned the top comment of the configuration files 
+
+* VER 1.55 <2020-06-26 Fri 19:30>
+  -- EMACS --
+  - Added the org-agenda and a few hotkeys to general-conf.el
+
+* [ 15/06/2020 ] - VER 1.51
+-- TERMINAL --
+- Fixed a rendering issue with the tmux multiplexer on URXVT terminals (tmux.conf)
+
+* [ 14/06/2020 ] - VER 1.5
+-- EMACS --
+- Added useful comments to the .emacs.d/custom files for an easier installation process
+- Removed the irony and semanticdb folders from the git tree
+-- TERMINAL --
+- Removed the weechat.conf file
+
+* [ 19/05/2020 ] - VER 1.4
+ -- EMACS --
+- Replaced company-tern with company-lsp
+- Added lsp
+- Added company-ctags
+- Updated /.emacs.d/custom/web-config.el with new installation-directory instructions
+
+* [ 19/05/2020 ] - VER 1.31
+- Company-tern has been removed from MELPA, currently working on replacing it
+with Indium
+
+* [ 12/05/2020 ] - VER 1.3
+- Fixed the grammar checking in EMACS and added support for Portuguese and Spanish
+- Changed some colors
+
+* [ 18/04/2020 ] - VER 1.2
+
+- Added confirmation checks to AwesomeWM logout, reboot and shutdown hotkeys
+- Swapped EMACS helm for ivy + swipper & counsel (to revert to helm uncomment the include in .emacs)
+- Added a 96 DPI configuration to AwesomeWM startup
+
+* [ 13/04/2020 ] - VER 1.1
+    
+- Added confirmation menus to Awesome's shutdown, reboot and log off functions
+- Reinstated "ohsnap" as the default font (https://aur.archlinux.org/packages/ohsnap-otb/)
+
+* [ 17/02/2020 ] - VER 1.0 ]
+- Git tree reset

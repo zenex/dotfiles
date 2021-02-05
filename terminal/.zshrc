@@ -134,6 +134,7 @@ export NVM_DIR="~/.nvm"
 export QT_QPA_PLATFORMTHEME=qt5ct
 export QEMU_IRIX="~/Documents/apps/qemu-irix/qemu-irix" # For N64 ROMS compilation
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+export WINEPREFIX=/home/admin/.wine
 
 # export PATH="/home/$USER/Documents/Scripts:$PATH"
 # required for MPC
@@ -164,6 +165,7 @@ firefox-guest () {
 }
 
 cs() { cd "$1" && ls -la; }
+strToHex() { echo -n "$1" | od -A n -t x1 }
 
 
 alias hash_cmp="sh ~/.scripts/hash-compare "

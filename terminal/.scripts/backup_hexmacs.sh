@@ -14,8 +14,17 @@ repo_dir="/home/$USER/repos/hexmacs/"
 
 echo "Updating: ${repo_dir}"
 
-mkdir -p "${repo_dir}"
-mkdir -p "${repo_dir}.emacs.d"
+if [ ! -d "$repo_dir" ]; then
+    echo "Repo folder not found, creating a new one..."
+    # MAKE DIRECTORIES
+    mkdir -p "${repo_dir}"
+    mkdir -p "${repo_dir}.emacs.d"
+    cd "${repo_dir}"
+else
+    echo "Repo folder found, starting backup"
+    cd "${repo_dir}"
+fi
+
 
 cd "${repo_dir}"
 echo "Backing files."
@@ -23,10 +32,10 @@ echo "Backing files."
 
 # EMACS
 cp ~/.emacs "${repo_dir}/"
-cp ~/.emacs.d/hexmacs-packages.el "${repo_dir}/.emacs.d"
+cp ~/.emacs.d/hexmacs-packages.el "${repo_dir}.emacs.d"
 cp -r ~/.emacs.d/custom/ "${repo_dir}.emacs.d/"
 # CLEAN AUTO GENERATED FILES
-cd "${repo_dir}/hexmacs/.emacs.d/custom/"
+cd "${repo_dir}.emacs.d/custom"
 # Delete temporary files
 find . -name "*.elc" -delete
 find . -name "*.el#" -delete
