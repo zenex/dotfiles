@@ -9,8 +9,9 @@ Though they are primarily used and developed for the arch distribution they are 
 This workstation aims to provide the most basic toolset required to develop all other XENOBYTE projects and a solid foundation for general desktop use. 
 
 
-*AS OF VER 2.6 (2021-01-28) THE REPO HAS BEEN RESET TO REMOVE DEPRECATED FILES*
 *AS OF VER 1.6 (2020-07-24) THE EMACS CONFIGURATION HAS BEEN MOVED TO IT'S OWN REPO [[https://xenobyte.xyz/projects/?nav=hexmacs][HERE]].*
+
+*AS OF VER 2.6 (2021-01-28) THE REPO HAS BEEN RESET TO REMOVE DEPRECATED FILES*
 
 
 * System requirements
