@@ -1,6 +1,10 @@
 #+Title: [[https://xenobyte.xyz/projects/?nav=dotfiles][XENOBYTE.XYZ Dotfiles]] CHANGELOG
 #+Author: SENEX @ XENOBYTE.XYZ
 
+* VER 2.7 <2021-03-23 Tue 19:07>
+  - Changed the tmux config and theme
+  - Decreased the keyboard read delay (made the keyboard cursor it faster) in awesome rc
+
 * VER 2.6 <2021-01-25 Mon 20:19>
   - Git tree reset to remove old, deprecated files
 
