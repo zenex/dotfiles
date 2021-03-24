@@ -19,19 +19,19 @@ local theme                                     = {}
 theme.dir                                       = os.getenv("HOME") .. "/.config/awesome/theme"
 theme.wallpaper                                 = theme.dir .. "/default_wallpaper.jpg"
 theme.font                                      = "tewi 9"
-theme.fg_normal                                 = "#398bc6"
-theme.fg_focus                                  = "#100"
+theme.fg_normal                                 = "#ddd"
+theme.fg_focus                                  = "#8FEB8F"
 theme.fg_minimize                               = "#E06C75"
 theme.bg_normal                                 = "#0c0c0c"
-theme.bg_focus                                  = "#8FEB8F"
+theme.bg_focus                                  = "#0c0c0c"
 theme.fg_urgent                                 = "#0c0c0c"
 theme.bg_urgent                                 = "#DDDDDD"
 theme.border_width                              = 2
 theme.border_normal                             = "#6E6E6E"
 theme.border_focus                              = "#8FEB8F"
-theme.taglist_fg_focus                          = "#0c0c0c"
-theme.taglist_bg_focus                          = "#ff008d"
-theme.taglist_bg_normal                         = "#B81B54"
+theme.taglist_fg_focus                          = "#8FEB8F"
+theme.taglist_bg_focus                          = "#0c0c0c"
+theme.taglist_bg_normal                         = "#0c0c0c"
 theme.titlebar_bg_normal                        = "#0c0c0c"
 theme.titlebar_bg_focus                         = "#262626"
 theme.menu_height                               = 16
@@ -265,7 +265,7 @@ local bar_spr_rgt   =  wibox.widget.textbox(markup.fontfg("tewi 9", "#E06C75", "
 local bar   =  wibox.widget.textbox(markup.fontfg("tewi 9", "#E06C75", " | "))
 local bar_spr_lft_alt   =  wibox.widget.textbox(markup.fontfg("tewi 9", "#E06C75", "[ "))
 local bar_spr_rgt_alt   =  wibox.widget.textbox(markup.fontfg("tewi 9", "#E06C75", " ]"))
-
+local unic_1   =  wibox.widget.textbox(markup.fontfg("tewi 9", "#E06C75", "☼"))
 
 -- Eminent-like task filtering
 local orig_filter = awful.widget.taglist.filter.all
@@ -318,12 +318,11 @@ function theme.at_screen_connect(s)
             layout = wibox.layout.fixed.horizontal,
             -- small_spr,
             -- small_spr,
-            bar_spr_lft,
-            s.mytaglist,
-            bar,
+            spr,
             s.mylayoutbox,
-            bar_spr_rgt,
-            bar_spr,
+            spr,
+            s.mytaglist,
+            spr,
             first,
             s.mypromptbox,
         },
@@ -336,13 +335,14 @@ function theme.at_screen_connect(s)
             theme.mpd.widget,
             -- baticon,
             -- batwidget,
-            bar_spr,
-            -- volicon,
-            bar_spr_lft,
+            -- bar_spr,
+            -- bar_spr_lft,
+            volicon,
             volumewidget,
-            bar,
+            -- bar,
             mytextclock,
-            bar_spr_rgt,
+            spr
+            -- bar_spr_rgt,
             -- small_spr,
         },
     }

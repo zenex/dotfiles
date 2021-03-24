@@ -77,37 +77,79 @@ urxvt.keysym.C-v           : perl:clipboard:paste
 urxvt.keysym.M-C-v         : perl:clipboard:paste_escaped
 urxvt.keysym.F11           : perl:fullscreen:switch
 
+! DARK THEME
+
 ! ! COLORS
-urxvt*foreground:   #ebf8ff
-urxvt*background:   #161b1d
+urxvt*foreground:   #b9b9b9
+urxvt*background:   #181818
 urxvt*cursorColor:  #e66b2b
 
 ! black
-urxvt*color0:       #1f292e
-urxvt*color8:       #8b8792
+urxvt*color0:       #181818
+urxvt*color8:       #151515
 
 ! red
-urxvt*color1:       #d22d72
-urxvt*color9:       #d73c9a
+urxvt*color1:       #fc4769
+urxvt*color9:       #fd886b
 
 ! green
 urxvt*color2:       #7cc844
 urxvt*color10:      #568c3b
 
 ! yellow
-urxvt*color3:       #e4b51c
-urxvt*color11:      #e66b2b
+urxvt*color3:       #fecb6e
+urxvt*color11:      #b15f4a
 
 ! blue
-urxvt*color4:       #257fad
-urxvt*color12:      #52cbb0
+urxvt*color4:       #32ccdc
+urxvt*color12:      #acddfd
 
 ! magenta
-urxvt*color5:       #b72dd2
+urxvt*color5:       #ba8cfc
 urxvt*color13:      #955ae7
 
 ! cyanx
-urxvt*color6:       #576ddb
+urxvt*color6:       #20bcfc
+urxvt*color14:      #257fad
+
+! white
+urxvt*color7:       #efecf4
+urxvt*color15:      #c2c2b0
+
+
+! LIGHT THEME
+
+! ! COLORS
+urxvt*foreground:   #b9b9b9
+urxvt*background:   #181818
+urxvt*cursorColor:  #e66b2b
+
+! black
+urxvt*color0:       #181818
+urxvt*color8:       #151515
+
+! red
+urxvt*color1:       #fc4769
+urxvt*color9:       #fd886b
+
+! green
+urxvt*color2:       #7cc844
+urxvt*color10:      #568c3b
+
+! yellow
+urxvt*color3:       #fecb6e
+urxvt*color11:      #b15f4a
+
+! blue
+urxvt*color4:       #32ccdc
+urxvt*color12:      #acddfd
+
+! magenta
+urxvt*color5:       #ba8cfc
+urxvt*color13:      #955ae7
+
+! cyanx
+urxvt*color6:       #20bcfc
 urxvt*color14:      #257fad
 
 ! white

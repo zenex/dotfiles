@@ -8,12 +8,12 @@
 # mpd stuff
 mpd_host = "127.0.0.1"
 mpd_port = "8451"
-mpd_music_dir = "/run/media/admin/2THDD/music"
+mpd_music_dir = "/run/mount/2TBHDD/music"
 mpd_connection_timeout = "5"
 
 
 # Visualizer
-visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_data_source = "/tmp/mpd.fifo"
 visualizer_output_name = "fifo"
 visualizer_type = "wave" (spectrum/wave)
 
@@ -40,7 +40,7 @@ statusbar_visibility = 					"yes"
 
 # Progress Bar ..
 progressbar_look = "━━─"
-progressbar_boldness = "yes"
+# progressbar_boldness = "yes"
 
 progressbar_elapsed_color = "green"
 
@@ -52,7 +52,7 @@ main_window_color = 					"white"
 header_window_color = 					"4"
 progressbar_color = 					"cyan"
 statusbar_color = 						"red"
-active_column_color = 					"white"
+# active_column_color = 					"white"
 volume_color = 							"4"
 window_border_color = 					"white"
 active_window_border = 					"4"

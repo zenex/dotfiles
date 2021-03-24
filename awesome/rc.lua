@@ -72,7 +72,9 @@ run_once({ "unclutter -root" }) -- entries must be comma-separated
 -- {{{{{{{{{{ LOAD LAYOUTS AND TAGS }}}}}}}}}}
 
 awful.util.terminal = terminal
-awful.util.tagnames = { "一", "二", "三", "四", "五", "六", "七", "八", "九" }
+-- awful.util.tagnames = { "一", "二", "三", "四", "五", "六", "七", "八", "九" }
+-- awful.util.tagnames = { "☼", "♀", "♂", "☻", "♪", "♣", "♦", "▄", "▒" }
+awful.util.tagnames = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }
 -- The available layouts, add / enable them here. I suggest keeping it short
 -- to avoid rescrolling for too long
 awful.layout.layouts = {
@@ -785,9 +787,11 @@ awful.util.spawn_with_shell("xrandr --dpi 96")
 awful.util.spawn_with_shell("xrdb merge ~/.Xresources")
 awful.util.spawn_with_shell("xsetwacom --set 10 MapToOutput HEAD-0") -- Map wacopm tablet to the HDMI monitor
 awful.util.spawn_with_shell("xscreensaver -nosplash &")
-awful.util.spawn_with_shell("sh ~/.screenlayout/screens.sh")
+awful.util.spawn_with_shell("sh ~/.screenlayout/four_screens.sh")
 awful.util.spawn_with_shell("nitrogen --restore")
 awful.util.spawn_with_shell("picom &")
+-- Change keoyboard typematic delay (make it faster)
+awful.util.spawn_with_shell("xset r rate 150 30")
 
 -- awful.util.spawn_with_shell("fc-cache -f -v");
 -- awful.util.spawn_with_shell("nvidia-settings --load-config-only")
