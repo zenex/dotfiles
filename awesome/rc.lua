@@ -789,9 +789,9 @@ awful.util.spawn_with_shell("xsetwacom --set 10 MapToOutput HEAD-0") -- Map waco
 awful.util.spawn_with_shell("xscreensaver -nosplash &")
 awful.util.spawn_with_shell("sh ~/.screenlayout/four_screens.sh")
 awful.util.spawn_with_shell("nitrogen --restore")
-awful.util.spawn_with_shell("picom &")
+-- awful.util.spawn_with_shell("picom &")
 -- Change keoyboard typematic delay (make it faster)
-awful.util.spawn_with_shell("xset r rate 150 30")
+awful.util.spawn_with_shell("xset r rate 180 30")
 
 -- awful.util.spawn_with_shell("fc-cache -f -v");
 -- awful.util.spawn_with_shell("nvidia-settings --load-config-only")

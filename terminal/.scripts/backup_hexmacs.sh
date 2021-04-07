@@ -3,7 +3,7 @@
 # ┴ └─└─┘┘└┘└─┘└─┘ ┴  ┴ └─┘o┴ └─ ┴ └─┘
 # Author:  SENEX @ XENOBYTE.XYZ
 # License: MIT License
-# Website: https://xenobyte.xyz/projects/?nav=dotfiles
+# Website: https://xenobyte.xyz/projects/?nav=hexmacs
 
 #!/bin/bash
 
