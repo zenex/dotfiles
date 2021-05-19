@@ -1,0 +1,24 @@
+#TESTING
+http://xenobyte.xyz.localhost/static/text_files/rss.xml "~XENOBYTE-LOCAL"
+https://xenobyte.xyz/static/text_files/rss.xml "~XENOBYTE.XYZ"
+
+# LINUX
+https://archlinux.org/feeds/news/ "~Archlinux News"
+# https://archlinux.org/feeds/packages/
+https://bugs.archlinux.org/feed.php?feed_type=rss2&project=0 "~Archlinux Bugtracker"
+
+# NEWS
+http://feeds.feedburner.com/zerohedge/feed "~ZeroHedge"
+https://www.rt.com/rss/ "~RT"
+
+
+# TECH & SCI
+http://googleblog.blogspot.com/feeds/posts/default?alt=rss "~Jewgle"
+http://www.wired.com/wiredscience/feed/ "~Wired"
+https://hnrss.org/frontpage "~HackerNews"
+https://hackerone.com/blog.rss "~HackerOne"
+https://hackernoon.com/feed "~HackerNoon"
+https://www.reddit.com/r/hacking/.rss?format=xml "~PlebbitHacking"
+https://www.csoonline.com/blog/salted-hash-top-security-news/index.rss "~CSO"
+
+
