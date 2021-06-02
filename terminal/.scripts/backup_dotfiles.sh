@@ -45,6 +45,7 @@ cp -r ~/.newsboat "${backup_dir}/terminal/"
 rm "${backup_dir}/terminal/.ncmpcpp/error.log"
 rm "${backup_dir}/terminal/.newsboat/error.log"
 rm "${backup_dir}/terminal/.newsboat/cache.db"
+rm "${backup_dir}/terminal/.newsboat/cache.db.lock"
 
 echo "Fonts..."
 cp -r ~/.fonts/ProFontWindows.ttf  "${backup_dir}/terminal/fonts/"
