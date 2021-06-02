@@ -47,17 +47,21 @@ defaults.ctl.card ID#
 
 
 **Bitmap fonts aren't working / square fonts error.**
+
 If your system uses pango to render text, know that starting with ver 1.44 bitmap fonts are no longer supported. Rolling back to ver 1.43 is an easy enough solution but beware that bleeding-edge distros like Arch may require newer version to work.
 
 
 **Audio works but some applications (e.g. MPD) can't set volume.**
+
 If you're using pulseaudio you need to allow autospawn in /etc/pulse/client.conf.
 
 
 **Are multiple monitors supported?**
+
 Yes, the awesome/rc.lua file calls a series of scripts at startup, among them "~/.screenlayout/monitors.sh". Simply use a program like arandr to generate the proper xrandr calls and restart the AwesomeWM process.
 
 
 **What is the project's license? Do I have to pay or credit you in any way?**
+
 The project is MIT licensed and free. 
 
