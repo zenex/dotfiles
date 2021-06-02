@@ -22,7 +22,7 @@ Any UNIX system will do, the newer the better. Most configurations work with Win
 
 
 ## Installation
-    Check the installation guide at [XENOBYTE.XYZ](https://xenobyte.xyz/projects/?nav=dotfiles).
+    Check the installation guide at [HERE](https://xenobyte.xyz.localhost/projects/?nav=dotfiles)
    
    
    
