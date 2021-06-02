@@ -1,4 +1,4 @@
-# [XENOBYTE.XYZ Dotfiles](https://xenobyte.xyz.localhost/projects/?nav=dotfiles)
+# [XENOBYTE.XYZ Dotfiles](https://xenobyte.xyz/projects/?nav=dotfiles)
 These configuration files turn a vanilla UNIX setup into the official XENOBYTE development environment.
 Though they are primarily used and developed for the arch distribution they are compatible with all UNIX systems and even Windows machines with a few, simple tweaks. Note that this setup emphasizes performance and flexibility over flashiness and secondary features such as desktop effects.
 
