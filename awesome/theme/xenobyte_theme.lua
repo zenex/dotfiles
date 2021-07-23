@@ -18,7 +18,7 @@ local my_table = awful.util.table or gears.table -- 4.{0,1} compatibility
 local theme                                     = {}
 theme.dir                                       = os.getenv("HOME") .. "/.config/awesome/theme"
 theme.wallpaper                                 = theme.dir .. "/default_wallpaper.jpg"
-theme.font                                      = "tewi 9"
+theme.font                                      = "misc ohsnap 9"
 theme.fg_normal                                 = "#ddd"
 theme.fg_focus                                  = "#8FEB8F"
 theme.fg_minimize                               = "#E06C75"
@@ -112,7 +112,7 @@ local mytextclock = awful.widget.watch(
 lain.widget.calendar({
     attach_to = { mytextclock },
     notification_preset = {
-        font = "tewi 9",
+        font = "misc ohsnap 9",
         fg   = theme.fg_normal,
         bg   = theme.bg_normal
     }
@@ -256,16 +256,16 @@ local volumebg = wibox.container.background(theme.volume.bar, "#474747", gears.s
 local volumewidget = wibox.container.margin(volumebg, 2, 7, 4, 4)
 
 -- Separators
-local first     = wibox.widget.textbox(markup.font("tewi 9", " "))
+local first     = wibox.widget.textbox(markup.font("misc ohsnap 9", " "))
 local spr       = wibox.widget.textbox(' ')
-local small_spr = wibox.widget.textbox(markup.font("tewi 9", " "))
+local small_spr = wibox.widget.textbox(markup.font("misc ohsnap 9", " "))
 -- local bar_spr   = wibox.widget.textbox(markup.font("Tamzen 3", " ") .. markup.fontfg(theme.font, "#333333", "|") .. markup.font("Tamzen 5", " "))
-local bar_spr_lft   =  wibox.widget.textbox(markup.fontfg("tewi 9", "#E06C75", "[ "))
-local bar_spr_rgt   =  wibox.widget.textbox(markup.fontfg("tewi 9", "#E06C75", " ]"))
-local bar   =  wibox.widget.textbox(markup.fontfg("tewi 9", "#E06C75", " | "))
-local bar_spr_lft_alt   =  wibox.widget.textbox(markup.fontfg("tewi 9", "#E06C75", "[ "))
-local bar_spr_rgt_alt   =  wibox.widget.textbox(markup.fontfg("tewi 9", "#E06C75", " ]"))
-local unic_1   =  wibox.widget.textbox(markup.fontfg("tewi 9", "#E06C75", "☼"))
+local bar_spr_lft   =  wibox.widget.textbox(markup.fontfg("misc ohsnap 9", "#E06C75", "[ "))
+local bar_spr_rgt   =  wibox.widget.textbox(markup.fontfg("misc ohsnap 9", "#E06C75", " ]"))
+local bar   =  wibox.widget.textbox(markup.fontfg("misc ohsnap 9", "#E06C75", " | "))
+local bar_spr_lft_alt   =  wibox.widget.textbox(markup.fontfg("misc ohsnap 9", "#E06C75", "[ "))
+local bar_spr_rgt_alt   =  wibox.widget.textbox(markup.fontfg("misc ohsnap 9", "#E06C75", " ]"))
+local unic_1   =  wibox.widget.textbox(markup.fontfg("misc ohsnap 9", "#E06C75", "☼"))
 
 -- Eminent-like task filtering
 local orig_filter = awful.widget.taglist.filter.all

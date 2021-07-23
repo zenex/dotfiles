@@ -1,6 +1,3 @@
-#TESTING
-http://xenobyte.xyz.localhost/static/text_files/rss.xml "~XENOBYTE-LOCAL"
-https://xenobyte.xyz/static/text_files/rss.xml "~XENOBYTE.XYZ"
 
 # LINUX
 https://archlinux.org/feeds/news/ "~Archlinux News"
@@ -21,4 +18,7 @@ https://hackernoon.com/feed "~HackerNoon"
 https://www.reddit.com/r/hacking/.rss?format=xml "~PlebbitHacking"
 https://www.csoonline.com/blog/salted-hash-top-security-news/index.rss "~CSO"
 
+#TESTING
+http://xenobyte.xyz.localhost/static/text_files/rss.xml "~XENOBYTE-LOCAL"
+https://xenobyte.xyz/static/text_files/rss.xml "~XENOBYTE.XYZ"
 

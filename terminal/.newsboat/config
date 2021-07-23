@@ -10,7 +10,7 @@ prepopulate-query-feeds yes
 
 # -- display -------------------------------------------------------------------
 
-show-read-feeds no
+show-read-feeds yes
 feed-sort-order unreadarticlecount-asc
 
 color info default default reverse
