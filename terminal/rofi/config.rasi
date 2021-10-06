@@ -1,0 +1,6 @@
+configuration {
+ modi: "window,drun,ssh,combi";
+ theme: "/usr/share/rofi/themes/gruvbox-dark-hard.rasi";
+ font: "tewi 9";
+ combi-modi: "window,drun,ssh";
+ }
