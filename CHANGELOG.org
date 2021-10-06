@@ -1,6 +1,11 @@
 #+Title: [[https://xenobyte.xyz/projects/?nav=dotfiles][XENOBYTE.XYZ Dotfiles]] CHANGELOG
 #+Author: SENEX @ XENOBYTE.XYZ
 
+* VER 2.8 <2021-10-06 Wed 17:09>
+  - Added an irssi theme to the project
+  - Added /.config/rofi/theme now that reading from .Xresources is deprecated
+  - Removed rofi config from .Xresources
+
 * VER 2.7 <2021-03-23 Tue 19:07>
   - Changed the tmux config and theme
   - Decreased the keyboard read delay (made the keyboard cursor it faster) in awesome rc

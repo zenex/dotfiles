@@ -17,7 +17,7 @@ Xft.hintstyle              : hintfull
 ! TEWI FONT
 urxvt.font                 : xft:tewi:regular:size=9
 urxvt.boldFont             : xft:tewi:regular:size=9
-rofi.font                  : tewi regular 9
+! rofi.font                  : tewi regular 9
 ! Ac437 ATI 8x8
 ! urxvt.font                 : xft:Ac437 ATI 8x8:regular:size=6
 ! urxvt.boldFont             : xft:Ac437 ATI 8x8:regular:size=6
