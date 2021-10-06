@@ -2,7 +2,7 @@
 #+Author: SENEX @ XENOBYTE.XYZ
 
 * VER 2.8 <2021-10-06 Wed 17:09>
-  - Added an irssi theme to the project
+  - Added an irssi theme to the project as an alternative to weechat
   - Added /.config/rofi/theme now that reading from .Xresources is deprecated
   - Removed rofi config from .Xresources
 
