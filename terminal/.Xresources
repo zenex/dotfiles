@@ -120,38 +120,113 @@ urxvt.keysym.F11           : perl:fullscreen:switch
 ! LIGHT THEME
 
 ! ! COLORS
-urxvt*foreground:   #c2c2b0
-urxvt*background:   #1a1a1a
-urxvt*cursorColor:  #d86868
+! urxvt*foreground:   #c2c2b0
+! urxvt*background:   #1a1a1a
+! urxvt*cursorColor:  #d86868
+
+! ! black
+! urxvt*color0:       #232530
+! urxvt*color8:       #2e303e
+
+! ! red
+! urxvt*color1:       #d88568
+! urxvt*color9:       #e58d7d
+
+! ! green
+! urxvt*color2:       #7cc844
+! urxvt*color10:      #7c9cae
+
+! ! yellow
+! urxvt*color3:       #d88568
+! urxvt*color11:      #8b6c37
+
+! ! blue
+! urxvt*color4:       #32ccdc
+! urxvt*color12:      #24a8b4
+
+! ! magenta
+! urxvt*color5:       #ba8cfc
+! urxvt*color13:      #b98eb2
+
+! ! cyanx
+! urxvt*color6:       #20bcfc
+! urxvt*color14:      #257fad
+
+! ! white
+! urxvt*color7:       #767676
+! urxvt*color15:      #b8b8b8
+
+
+! DARK PURPLE
+! urxvt*foreground:   #665c64
+! urxvt*background:   #121212
+
+! ! black
+! urxvt*color0:       #2b3135
+! urxvt*color8:       #4c5356
+
+! ! red
+! urxvt*color1:       #8fa1b3
+! urxvt*color9:       #8fa1b3
+
+! ! green
+! urxvt*color2:       #EC1850
+! urxvt*color10:      #EC1850
+
+! ! yellow
+! urxvt*color3:       #4f5b66
+! urxvt*color11:      #4f5b66
+
+! ! blue
+! urxvt*color4:       #607a86
+! urxvt*color12:      #607a86
+
+! ! magenta
+! urxvt*color5:       #80757e
+! urxvt*color13:      #80757e
+
+! ! cyan
+! urxvt*color6:       #B19CD9
+! urxvt*color14:      #B19CD9
+
+! ! white
+! urxvt*color7:       #deded6
+! urxvt*color15:      #deded6
+
+
+! special
+urxvt*foreground:   #c0c0c0
+urxvt*background:   #121212
+urxvt*cursorColor:  #c0c0c0
 
 ! black
-urxvt*color0:       #232530
-urxvt*color8:       #2e303e
+urxvt*color0:       #080808
+urxvt*color8:       #36393f
 
 ! red
-urxvt*color1:       #d88568
-urxvt*color9:       #e58d7d
+urxvt*color1:       #EC1850
+urxvt*color9:       #d86868
 
 ! green
-urxvt*color2:       #7cc844
-urxvt*color10:      #7c9cae
+urxvt*color2:       #3ea28d
+urxvt*color10:      #71c4ba
 
 ! yellow
-urxvt*color3:       #d88568
-urxvt*color11:      #8b6c37
+urxvt*color3:       #4dc5ce
+urxvt*color11:      #5e767f
 
 ! blue
-urxvt*color4:       #32ccdc
-urxvt*color12:      #24a8b4
+urxvt*color4:       #6ea2a5
+urxvt*color12:      #6abdc1
 
 ! magenta
-urxvt*color5:       #ba8cfc
-urxvt*color13:      #b98eb2
+urxvt*color5:       #B19CD9
+urxvt*color13:      #4e4d80
 
-! cyanx
-urxvt*color6:       #20bcfc
-urxvt*color14:      #257fad
+! cyan
+urxvt*color6:       #558188
+urxvt*color14:      #4fc8ce
 
 ! white
-urxvt*color7:       #767676
-urxvt*color15:      #b8b8b8
+urxvt*color7:       #c0c0c0
+urxvt*color15:      #a6a8aa

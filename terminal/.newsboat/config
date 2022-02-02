@@ -11,7 +11,7 @@ prepopulate-query-feeds yes
 # -- display -------------------------------------------------------------------
 
 show-read-feeds yes
-feed-sort-order unreadarticlecount-asc
+# feed-sort-order unreadarticlecount-asc
 
 color info default default reverse
 color listnormal_unread yellow default

@@ -784,6 +784,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 --  {{{{{{{{{{ STARTUP SCRIPTS }}}}}}}}}}
 awful.util.spawn_with_shell("xrandr --dpi 96")
+awful.util.spawn_with_shell("xset r rate 180 30")
 awful.util.spawn_with_shell("xrdb merge ~/.Xresources")
 awful.util.spawn_with_shell("xsetwacom --set 10 MapToOutput HEAD-0") -- Map wacopm tablet to the HDMI monitor
 awful.util.spawn_with_shell("xscreensaver -nosplash &")
@@ -791,7 +792,6 @@ awful.util.spawn_with_shell("sh ~/.screenlayout/default.sh")
 awful.util.spawn_with_shell("nitrogen --restore")
 -- awful.util.spawn_with_shell("picom &")
 -- Change keoyboard typematic delay (make it faster)
-awful.util.spawn_with_shell("xset r rate 180 30")
 
 -- awful.util.spawn_with_shell("fc-cache -f -v");
 -- awful.util.spawn_with_shell("nvidia-settings --load-config-only")
